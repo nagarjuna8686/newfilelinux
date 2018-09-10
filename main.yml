@@ -2,7 +2,5 @@
 - hosts: all
   become: true 
   tasks:
-    - name: copy file in tmp
-      copy: src=enlinuxpc64 dest=/tmp/
-      copy: src=test.sh dest=/tmp/   
-      command: sh /tmp/test.sh
+    copy: src=test.sh dest=/tmp/   
+    command: sh /tmp/test.sh
