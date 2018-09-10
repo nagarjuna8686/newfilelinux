@@ -1,0 +1,1 @@
+ mkdir -p /usr/local/encase ; cd /usr/local/encase ; mv /tmp/enlinuxpc64 /usr/local/encase/enlinuxpc64 ; chown root:root enlinuxpc64 ; chmod 755 enlinuxpc64 ; /usr/local/encase/enlinuxpc64 -d -l 4445 ; /usr/local/encase/enlinuxpc64 -d -l 4446 ; netstat -an | grep 444[5-6]
